@@ -5,6 +5,14 @@
 
 Напишите запрос к учебной базе данных, который вернёт процентное отношение общего размера всех индексов к общему размеру всех таблиц.
 
+select sum(DATA_LENGTH), sum(INDEX_LENGTH), concat(round((sum(INDEX_LENGTH) / sum(DATA_LENGTH)) *100), ' %') as Отношение_индексов_таблиц
+
+from INFORMATION_SCHEMA.tables 
+
+where TABLE_SCHEMA = 'sakila' ;
+
+![image](https://github.com/GorkOrMork/index/assets/109193124/e1806b56-e055-4602-bdf6-72b94308410d)
+
 
 ### Задание 2
 
