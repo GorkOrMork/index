@@ -49,7 +49,7 @@ join inventory i on i.inventory_id = r.inventory_id
 
 join film f on f.film_id = i.film_id
 
-where date(p.payment_date) = '2005-07-30';
+where (p.payment_date) = '2005-07-30';
 
 
-![image](https://github.com/GorkOrMork/index/assets/109193124/7ee59e3f-c16f-4242-8b05-faea0477b093)
+![image](https://github.com/GorkOrMork/index/assets/109193124/e9d33e43-71e5-4a49-8572-73491c79ee01)
