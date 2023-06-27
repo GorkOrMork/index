@@ -53,3 +53,7 @@ where (p.payment_date) = '2005-07-30';
 
 
 ![image](https://github.com/GorkOrMork/index/assets/109193124/e9d33e43-71e5-4a49-8572-73491c79ee01)
+
+или 
+![image](https://github.com/GorkOrMork/index/assets/109193124/0b2a3f2f-bd1d-4703-883e-55b27f61a6b9)
+
